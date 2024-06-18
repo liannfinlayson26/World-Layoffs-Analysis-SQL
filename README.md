@@ -19,7 +19,11 @@ See code: https://github.com/liannfinlayson26/World-Layoffs-Analysis-SQL/blob/ma
 # Data Exploration
 See code: https://github.com/liannfinlayson26/World-Layoffs-Analysis-SQL/blob/main/Data_Exploration_Layoffs.sql
 
-
+Antes de hacer queries realice una conversión de los datos de columnas que tenían formato text a integer utilizando la función ALTER TABLE. Luego realice múltiples queries para obtener la siguiente información: 
+1. La máxima cantidad de despidos en un día: 12,000
+2. Reconocer cuáles compañías tenían un laifoff total: Katerra is the company with the most laid off people 2,434
+3. Cuáles son los fondos raised in millions de estas compañías: companies like Britishvolt and Quibi got funds by 2.4B and 1.8B 
+4. Las companías con mayor cantidad de layoffs: Amazon con 18,
 
 
 # Visualization
@@ -27,6 +31,6 @@ To see the Interactive Tableau visualization go to:
 https://public.tableau.com/app/profile/liann.finlayson4647/viz/WorldLayoffs_17186015941360/Dashboard1
 
 
-
 # Sources:
 Alex the Analyst database
+CSV to JSON converter: https://csvjson.com/csv2json
