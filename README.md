@@ -4,17 +4,23 @@ Since 2020, there has been a significant increase in layoffs around the world. T
 # Data Cleaning
 </br> After converting my CSV file to a JSON file, these were the steps I followed to clean the data::
 
-1. Delete duplicates from databases: using a Common Table Expression (CTEs).
-2. Estandarizar la data para 
-3. Check if there were any blank or NULL data in the database to remove them or populate them if posible.
-5. Remove unnecessary columns from the database (mostly the columns I created in the first step to review the duplicates).
+1. Create a copy of the database.
+2. Delete duplicates from databases: using a Common Table Expression (CTEs).
+3. Standardize the data:
+   * Used the TRIM function because there were leading spaces in some data.
+   * Used the DISTINCT function because there were inconsistencies in the format of the industry column.
+   * Used UPDATE and STR_TO_DATE to change the date format to %m, %d, %Y.
+5. Check if there were any blank or NULL data in the database to remove them or populate them if posible.
+   * When converting the CSV file to JSON, we first had to convert the string "NULL" to a NULL value using the UPDATE function.
+   * Populated the data for companies like Airbnb that had usable data in other rows.
+7. Remove unnecessary columns from the database (mostly the columns I created in the first step to review the duplicates).
 
 See code: https://github.com/liannfinlayson26/World-Layoffs-Analysis-SQL/blob/main/Data%20Cleaning%201.sql
 
 # Data Exploration
-</br> 
-
 See code: https://github.com/liannfinlayson26/World-Layoffs-Analysis-SQL/blob/main/Data_Exploration_Layoffs.sql
+
+</br> 
 
 
 
