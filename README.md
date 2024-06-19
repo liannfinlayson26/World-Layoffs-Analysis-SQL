@@ -35,7 +35,7 @@ Before running queries, I converted data from columns formatted as text to integ
     - Year 2021: 15,823
     - Year 2022: 160,661
     - Year 2023: 125,677
-    Concluding that 2022 had the highest number of layoffs with 160k.
+    <br/>Concluding that 2022 had the highest number of layoffs with 160k.
 11. The highest number of layoffs per company during each year 2020, 2021, 2022, and 2023:
     - Year 2020: Uber with 7,525 layoffs
     - Year 2021: Bytedance with 3,600 layoffs
@@ -44,8 +44,8 @@ Before running queries, I converted data from columns formatted as text to integ
 
 # Visualization
 To see the Interactive Tableau visualization go to:
-https://public.tableau.com/app/profile/liann.finlayson4647/viz/WorldLayoffs_17186015941360/Dashboard1
+<br/>https://public.tableau.com/app/profile/liann.finlayson4647/viz/WorldLayoffs_17186015941360/Dashboard1
 
 # Sources:
 Alex the Analyst database
-CSV to JSON converter: https://csvjson.com/csv2json
+<br/>CSV to JSON converter: https://csvjson.com/csv2json
