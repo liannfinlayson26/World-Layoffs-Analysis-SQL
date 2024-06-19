@@ -19,19 +19,32 @@ See code: https://github.com/liannfinlayson26/World-Layoffs-Analysis-SQL/blob/ma
 # Data Exploration
 See code: https://github.com/liannfinlayson26/World-Layoffs-Analysis-SQL/blob/main/Data_Exploration_Layoffs.sql
 
-Antes de hacer queries realice una conversión de los datos de columnas que tenían formato text a integer utilizando la función ALTER TABLE. Luego realice múltiples queries para obtener la siguiente información: 
-1. La máxima cantidad de despidos en un día: 12,000
-2. Reconocer cuáles compañías tenían un laifoff total: Katerra is the company with the most laid off people 2,434
-3. Cuáles son los fondos raised in millions de estas compañías: companies like Britishvolt and Quibi got funds by 2.4B and 1.8B 
-4. Las companías con mayor cantidad de layoffs: Amazon con 18,150 layoffs, seguido de Google con 12,000 y Meta con 11,000
-5. Entender el rango de fechas: desde el año 2020 (pandemia) hasta el año 2023
-6. ¿Cuáles industrias 
+Before running queries, I converted data from columns formatted as text to integer using the ALTER TABLE function. Then, I ran multiple queries to obtain the following information:
 
+1. The maximum number of layoffs in a single day: 12,000
+2. Identified companies with total layoffs: Katerra is the company with the most layoffs, 2,434 people.
+3. Funds raised in millions by these companies: Companies like Britishvolt and Quibi raised funds of 2.4B and 1.8B, respectively.
+4. Companies with the highest number of layoffs: Amazon with 18,150 layoffs, followed by Google with 12,000 and Meta with 11,000.
+5. Understanding the date range: From the year 2020 (pandemic) to the year 2023.
+6. Industries most affected: Consumer and Retail.
+7. Industries least affected: Manufacturing, Fin-tech, Aerospace, Energy.
+8. Country with the highest number of layoffs: United States with 256,559 people.
+9. Country with the lowest number of layoffs: Poland with 25 people.
+10. Total layoffs each year:
+    - Year 2020: 80,998
+    - Year 2021: 15,823
+    - Year 2022: 160,661
+    - Year 2023: 125,677
+    Concluding that 2022 had the highest number of layoffs with 160k.
+11. The highest number of layoffs per company during each year 2020, 2021, 2022, and 2023:
+    - Year 2020: Uber with 7,525 layoffs
+    - Year 2021: Bytedance with 3,600 layoffs
+    - Year 2022: Meta with 11,000 layoffs
+    - Year 2023: Google with 12,000 layoffs
 
 # Visualization
 To see the Interactive Tableau visualization go to:
 https://public.tableau.com/app/profile/liann.finlayson4647/viz/WorldLayoffs_17186015941360/Dashboard1
-
 
 # Sources:
 Alex the Analyst database
