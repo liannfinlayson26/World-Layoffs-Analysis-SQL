@@ -23,7 +23,9 @@ Antes de hacer queries realice una conversión de los datos de columnas que ten�
 1. La máxima cantidad de despidos en un día: 12,000
 2. Reconocer cuáles compañías tenían un laifoff total: Katerra is the company with the most laid off people 2,434
 3. Cuáles son los fondos raised in millions de estas compañías: companies like Britishvolt and Quibi got funds by 2.4B and 1.8B 
-4. Las companías con mayor cantidad de layoffs: Amazon con 18,
+4. Las companías con mayor cantidad de layoffs: Amazon con 18,150 layoffs, seguido de Google con 12,000 y Meta con 11,000
+5. Entender el rango de fechas: desde el año 2020 (pandemia) hasta el año 2023
+6. ¿Cuáles industrias 
 
 
 # Visualization
